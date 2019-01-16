@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Go Poker</string>
+
+    <string name="my_cards">My Cards</string>
+    <string name="play">Play</string>
+    <string name="bet">Bet</string>
+    <string name="fold">Fold</string>
+    <string name="continue_text">Continue</string>
+    <string name="choose_amount_of_players">Choose Amount of Players:</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="choose_player_starting_money">Choose Player Starting Money:</string>
+    <string name="start_player_count">2</string>
+    <string name="start_money_count">$20000</string>
+    <string name="thanks_for_playing">Thanks for playing!</string>
+    <string name="made_by">Made by drmmx</string>
+    <string name="play_again">Play Again!</string>
+    <string name="loading">LOADING…</string>
+</resources>
