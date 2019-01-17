@@ -27,6 +27,11 @@ public class WebViewActivity extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
 
+        //Cashing
+        webView.getSettings().setAppCacheEnabled(true);
+        webView.getSettings().setAppCachePath(getApplicationContext().getCacheDir().getPath());
+        webView.getSettings().setCacheMode(WebSettings.LOAD_DEFAULT);
+
         webView.loadUrl(webViewLink);
     }
 
